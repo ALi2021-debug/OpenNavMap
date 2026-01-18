@@ -77,13 +77,24 @@ python scripts/run_vnav.py \
 Overview of our self-collected dataset using multiple devices, spanning diverse environments over 3.5 months, 35 sequences, and 18.7km.
 </em></p>
 
+### Multi-Session Mapping
+
+<p align="center">
+  <img src="doc/media/fig15_hkustcampus_crowd-crop.png" alt="campus" width="47%" style="max-width:500px;">
+  <img src="doc/media/fig15_uclcampus_crowd-crop.png" alt="campus" width="48%" style="max-width:500px;">
+</p>
+<p align="center"><em>
+Multi-session mapping with heterogeneous devices across two regions.
+</em></p>
+
+
 ### Real-World Image-Goal Navigation
 
 <p align="center">
   <img src="doc/media/fig15_vnav_lab.png" alt="VNav Lab" width="60%" style="max-width:500px;">
 </p>
 <p align="center"><em>
-Quadruped robot performing image-goal navigation, covering 160m in 312s.
+Quadruped robot performing image-goal navigation.
 </em></p>
 
 <p align="center">
