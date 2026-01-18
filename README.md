@@ -1,0 +1,115 @@
+<div align="center">
+
+# OpenNavMap
+
+**Structure-Free Topometric Mapping via Large-Scale Collaborative Localization**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Paper](https://img.shields.io/badge/Paper-Under%20Review-blue)](https://rpl-cs-ucl.github.io/OpenNavMap_page)
+
+</div>
+
+<div align="center" style="width:100%;">
+  <img src="doc/media/fig1_system_overview.png" alt="System Overview" style="display:block; width:80%; max-width:1000px;">
+</div>
+
+---
+
+## 🚀 Overview
+
+OpenNavMap is a lightweight, structure-free topometric mapping system that enables large-scale collaborative localization across multiple sessions without requiring pre-built 3D models. It leverages 3D geometric foundation models for on-demand reconstruction and provides robust metric localization performance.
+
+---
+
+## ✨ Key Features
+
+- 🎯 **Structure-free Map**: Lightweight graph-based map representation
+- 🔗 **Collaborative Localization**: Global registration across sessions in large-scale environments
+- 📱 **Cross-Device**: Works on various mobile platforms
+- 🔄 **Scalable & Lifelong**: Automatic map maintenance
+- 🗺️ **Multi-Session**: Merge maps from different agents/times
+
+---
+
+## 🛠️ Quick Start
+
+<!-- ### Installation -->
+
+Code is coming soon!
+
+<!-- ```bash
+# Clone repository
+git clone https://github.com/RPL-CS-UCL/OpenNavMap.git
+cd OpenNavMap
+
+# Install dependencies
+pip install -r requirements.txt
+``` -->
+
+<!-- ### Basic Usage
+
+```bash
+# Run mapping on a single session
+python scripts/run_mapping.py --data_path /path/to/data --output_path /path/to/output
+
+# Collaborative localization (merge multiple submaps)
+python scripts/collaborative_localization.py \
+    --submap1 /path/to/submap1 \
+    --submap2 /path/to/submap2 \
+    --output /path/to/merged_map
+
+# Visual navigation
+python scripts/run_vnav.py \
+    --map_path /path/to/map \
+    --goal_image /path/to/goal_image.jpg
+``` -->
+
+---
+
+## 🎬 Results Gallery
+
+### Dataset
+![Dataset](doc/media/fig9_dataset.png)
+*Overview of our self-collected dataset using multiple devices, spanning diverse environments over 3.5 months, 35 sequences, and 18.7km.*
+
+### Real-World Image-Goal Navigation
+![VNav Lab](doc/media/fig15_vnav_lab.png)
+*Quadruped robot performing image-goal navigation, covering 160m in 312s.*
+
+![VNav Outside](doc/media/fig19_vnav_around.png)
+*Autonomous navigation across varied outdoor environments with obstacles.*
+
+---
+
+## 📚 Citation
+
+If you use OpenNavMap in your research, please cite:
+
+```bibtex
+@article{jiao2025opennavmap,
+  title={OpenNavMap: Structure-Free Topometric Mapping via Large-Scale Collaborative Localization},
+  author={Jiao, Jianhao and Liu, Changkun and Yu, Jingwen and Liu, Boyi and Zhang, Qianyi and Wang, Yue and Kanoulas, Dimitrios},
+  journal={Under Review},
+  year={2025}
+}
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🤝 Contact & Links
+
+- **Project Page**: [https://rpl-cs-ucl.github.io/OpenNavMap_page](https://rpl-cs-ucl.github.io/OpenNavMap_page)
+- **Contact**: Jianhao Jiao (ucacjji@ucl.ac.uk)
+- **Acknowledgments**: Supported by UKRI Future Leaders Fellowship [MR/V025333/1] (RoboHike)
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by the Robot Perception and Learning Lab at UCL</sub>
+</div>
