@@ -131,7 +131,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🤝 Contact & Links
 
 - **Project Page**: [https://rpl-cs-ucl.github.io/OpenNavMap_page](https://rpl-cs-ucl.github.io/OpenNavMap_page)
-- **Contact**: Jianhao Jiao (ucacjji@ucl.ac.uk)
+- **Contact**: Jianhao Jiao (jiaojh1994@gmail.com), Prof.Dimitrios Kanoulas (d.kanoulas@ucl.ac.uk)
 - **Acknowledgments**: Supported by UKRI Future Leaders Fellowship [MR/V025333/1] (RoboHike)
 
 ---
