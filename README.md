@@ -107,9 +107,9 @@ Autonomous navigation across varied outdoor environments with obstacles.
 
 ---
 
-## 📚 Citation
+## 📚 Acknowledgement
 
-If you use OpenNavMap in your research, please cite:
+If this work is helpful to your research, please consider citing OpenNavMap or our related works:
 
 ```bibtex
 @article{jiao2025opennavmap,
@@ -117,6 +117,30 @@ If you use OpenNavMap in your research, please cite:
   author={Jiao, Jianhao and Liu, Changkun and Yu, Jingwen and Liu, Boyi and Zhang, Qianyi and Wang, Yue and Kanoulas, Dimitrios},
   journal={Under Review},
   year={2025}
+}
+```
+
+```bibtex
+@inproceedings{jiao2025litevloc,
+  title={LiteVLoc: Map-lite visual localization for image goal navigation},
+  author={Jiao, Jianhao and He, Jinhao and Liu, Changkun and Aegidius, Sebastian and Hu, Xiangcheng and Braud, Tristan and Kanoulas, Dimitrios},
+  booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={5244--5251},
+  year={2025},
+  organization={IEEE}
+}
+```
+
+```bibtex
+@article{wei2025fusionportablev2,
+  title={Fusionportablev2: A unified multi-sensor dataset for generalized slam across diverse platforms and scalable environments},
+  author={Wei, Hexiang and Jiao, Jianhao and Hu, Xiangcheng and Yu, Jingwen and Xie, Xupeng and Wu, Jin and Zhu, Yilong and Liu, Yuxuan and Wang, Lujia and Liu, Ming},
+  journal={The International Journal of Robotics Research},
+  volume={44},
+  number={7},
+  pages={1093--1116},
+  year={2025},
+  publisher={SAGE Publications Sage UK: London, England}
 }
 ```
 
