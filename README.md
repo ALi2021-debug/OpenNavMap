@@ -6,7 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Webpage](https://img.shields.io/badge/Webpage-Link-green)](https://rpl-cs-ucl.github.io/OpenNavMap_page/)
-[![Paper](https://img.shields.io/badge/Paper-Under%20Review-blue)](https://rpl-cs-ucl.github.io/OpenNavMap_page)
+[![Paper](https://img.shields.io/badge/Paper-Under%20Review-blue)](https://arxiv.org/abs/2601.12291)
 
 </div>
 
